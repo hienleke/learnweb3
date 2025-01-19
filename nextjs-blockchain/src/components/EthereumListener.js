@@ -10,7 +10,7 @@ const EthereumListener = () => {
       setBlockData(data);
       fetchBlockData();
     };
-    
+   
     fetchBlockData();
   }, []);
 
